@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: lightgray;
+    font-family: 'Roboto Mono', sans-serif;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #31d6e8;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 136, 255, 0.845);
+    margin: 5vw; 
+    border-radius: 1em;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    word-spacing: -.25em;
+  }
+
+  .form {
+    padding: 1.5em;
+  }
+  
+  .todo-input {
+    width: 200px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px 0;
+    outline: none;
+    border-radius: 1em;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .add-button {
+    background-color: gray;
+    color: #fff;
+    border: 1px solid white;
+    outline: none;
+    border-radius: .5em;
+    padding: .4em;
+    font-size: 1.2em;
+  }
+  
+  .list-container {
+    margin: 10vw;
+  }
+
+  .todo-items {
+    list-style: none;
+  }
+  
+  .item {
+    background-color: rgba(0, 136, 255, 0.845);
+    color: white;
+    padding: .6em;
+    font-size: 1.1rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: .35em;
+    border-top-right-radius: .35em;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: .35em;
+    border-bottom-right-radius: .35em;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    background-color: rgba(240, 32, 32, 0.797);
+    border: none;
+    outline: none;
+    border-radius: .3em;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+  
+  .checked { 
+    text-decoration: line-through;
+  }
+  
