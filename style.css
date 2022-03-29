@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: rgba(0, 136, 255, 0.845);
+    background-color: rgba(101, 183, 254, 0.845);
     margin: 5vw; 
     border-radius: 1em;
   }
@@ -67,7 +67,7 @@
   }
   
   .item {
-    background-color: rgba(0, 136, 255, 0.845);
+    background-color: rgba(101, 183, 254, 0.845);
     color: white;
     padding: .6em;
     font-size: 1.1rem;
